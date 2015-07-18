@@ -348,7 +348,13 @@ xyplot(avgSteps$meanOfSteps ~ avgSteps$interval | avgSteps$weekdays,
 
 ![](PA1_template_files/figure-html/unnamed-chunk-16-1.png) 
 
-From the graph comparing the average activity on weekdays vs. weekends, the
-activity, on average, is fairly consistent.  There is some variability in
-activity around the 1000-1500 5-minute interval but the general shape of the 
-two charts are similar.
+From the graphs, it seems that weekends have a more distributed amount
+activity over more intervals than weekdays.  Weekdays have higher spike
+activity rating which could be because of a consistent regular activity
+at that interval (i.e. walking to the office, going to the gym, etc.).
+
+Weekdays also had a lower level of activity over the span of its intervals
+in comparison to weekends which had higher acitivty for most of the
+same intervals.  This could be due to lower activity ratings while at work,
+versus doing activities on free time (assuming the people had a standard
+M-F workweek).
